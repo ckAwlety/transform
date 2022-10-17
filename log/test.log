@@ -1,0 +1,3 @@
+[2022-10-17 09:23:09.304] [INFO] - [main] ServiceWindow - Started server listening on 8080
+[2022-10-17 09:23:19.898] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
+[2022-10-17 09:23:20.683] [INFO] - [main] ClientWindow - 图片已收到 宽：1024高：676图片像素：[B@9346395
