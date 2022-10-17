@@ -1,24 +1,20 @@
 import com.google.protobuf.ByteString;
-import entity.Homework;
 import entity.Transform;
 import rpc.GreeterGrpc;
-import io.grpc.Channel;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.internal.ClientStream;
 import lombok.extern.log4j.Log4j2;
 import entity.Transform.*;
-import rpc.GreeterGrpc.*;
+
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.concurrent.TimeUnit;
 
-import static rpc.GreeterGrpc.newBlockingStub;
+
 @Log4j2
 public class ClientWindow {
 

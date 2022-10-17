@@ -1,3 +1,8 @@
 [2022-10-17 09:23:09.304] [INFO] - [main] ServiceWindow - Started server listening on 8080
 [2022-10-17 09:23:19.898] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
 [2022-10-17 09:23:20.683] [INFO] - [main] ClientWindow - 图片已收到 宽：1024高：676图片像素：[B@9346395
+[2022-10-17 10:53:36.671] [INFO] - [main] ServiceWindow - Started server listening on 8080
+[2022-10-17 10:53:46.388] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
+[2022-10-17 10:53:47.150] [INFO] - [main] ClientWindow - 图片已收到 宽：1024高：676图片像素：[B@4d6d0d09
+[2022-10-17 10:55:20.893] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
+[2022-10-17 10:55:21.535] [INFO] - [main] ClientWindow - 图片已收到 宽：1024高：676图片像素：[B@6a8b20c5
