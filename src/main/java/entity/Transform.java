@@ -39,13 +39,11 @@ public final class Transform {
      * @return The type.
      */
     int getType();
-
     /**
      * <code>int32 pixelBits = 5;</code>
      * @return The pixelBits.
      */
     int getPixelBits();
-
     /**
      * <code>int32 numComponents = 6;</code>
      * @return The numComponents.
