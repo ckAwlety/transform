@@ -1,12 +1,11 @@
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-import lombok.extern.log4j.Log4j2;
+//import lombok.extern.log4j.Log4j2;
 import service.TransformServiceImpl;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
-@Log4j2
+import io.grpc.Channel;
+//@Log4j2
 
 public class ServiceWindow {
 
@@ -19,14 +18,14 @@ public class ServiceWindow {
 
     public void start() throws IOException{
         server.start();
-        log.info("Started server listening on " + port);
+//        log.info("Started server listening on " + port);
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             try {
                 ServiceWindow.this.stop();
             } catch (InterruptedException e) {
                 e.printStackTrace(System.err);
             }
-            log.error("Server shut down.");
+//            log.error("Server shut down.");
         }));
     }
 
@@ -43,8 +42,12 @@ public class ServiceWindow {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        ServiceWindow server = new ServiceWindow(8080);
+        Server server ;
+        server = ServerBuilder.forPort(8080)
+                .addService(new TransformServiceImpl())
+                .maxInboundMessageSize(50*1024*1024)
+                .build();
         server.start();
-        server.blockUntilShutdown();
+        server.awaitTermination();
     }
 }

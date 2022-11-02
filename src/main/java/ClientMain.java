@@ -1,10 +1,9 @@
-import io.grpc.Channel;
+import Grpc.GreeterGrpc.GreeterBlockingStub;
+import entity.Homework.HelloReply;
+import entity.Homework.HelloRequest;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.internal.ClientStream;
 import lombok.extern.log4j.Log4j2;
-import entity.Homework.*;
-import Grpc.GreeterGrpc.*;
 
 import java.util.concurrent.TimeUnit;
 

@@ -9,8 +9,8 @@
 [2022-10-10 18:46:16.468] [INFO] - [main] ClientMain - Hello,曹可
 [2022-10-10 19:31:16.755] [INFO] - [main] ServiceWindow - Started server listening on 8080
 [2022-10-10 19:52:57.734] [INFO] - [main] ServiceWindow - Started server listening on 8080
-[2022-10-10 19:53:10.173] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
-[2022-10-10 19:53:10.915] [INFO] - [main] ClientWindow - 图片已收到 宽：512高：512
+[2022-10-10 19:53:10.173] [INFO] - [main] client.ClientWindow - Connected to server at 0.0.0.0:8080
+[2022-10-10 19:53:10.915] [INFO] - [main] client.ClientWindow - 图片已收到 宽：512高：512
 [2022-10-10 19:54:50.447] [INFO] - [main] ServiceWindow - Started server listening on 8080
-[2022-10-10 19:54:57.519] [INFO] - [main] ClientWindow - Connected to server at 0.0.0.0:8080
-[2022-10-10 19:54:58.259] [INFO] - [main] ClientWindow - 图片已收到 宽：512高：512图片像素：<ByteString@1100231f size=10 contents="\000\000\000\000\000\000\000\000\000\000">
+[2022-10-10 19:54:57.519] [INFO] - [main] client.ClientWindow - Connected to server at 0.0.0.0:8080
+[2022-10-10 19:54:58.259] [INFO] - [main] client.ClientWindow - 图片已收到 宽：512高：512图片像素：<ByteString@1100231f size=10 contents="\000\000\000\000\000\000\000\000\000\000">
